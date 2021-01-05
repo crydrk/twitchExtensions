@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Chat game!</title>
+
+		<style type="text/css">
+
+				table {
+				  background-color:#FFF7E7;
+				  margin-left: auto; 
+				  margin-right: right;
+				  text-align: center;
+				}
+		</style>
+		
+		<script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+		<script src="js/buttonCycle.js"></script>
+		
+	</head>
+	
+	<body id="body">
+
+		<table>
+			<tr>
+				<td></td>
+				<td><img src="graphics/makeAMonster.png" style="width:90px;height:45px;"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><img src="graphics/left.png" style="width:30px;height:30px;" id="hatLeftButton"></td>
+				<td><div id="hatGallery"> </div></td>
+				<td><img src="graphics/right.png" style="width:30px;height:30px;" id="hatRightButton"></td>
+			</tr>
+			<tr>
+				<td><img src="graphics/left.png" style="width:30px;height:30px;"  id="monsterLeftButton"></td>
+				<td><div id="monsterGallery"> </div></td>
+				<td><img src="graphics/right.png" style="width:30px;height:30px; " id="monsterRightButton"></td>
+			</tr>
+			<tr>
+				<td>
+					<img src="graphics/name.png" style="width:25px;height:25px;"> 
+				</td>
+				<td>
+					<input type="text" id="name" name="name" style = "width:60px"><br>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><img src="graphics/sendIt.png" id="submitButton"></td>
+				<td></td>
+			</tr>
+		</table>
+      
+
+	</body>
+	
+	<script>
+		//window.onload = randomizeStartingIndices();
+	</script>
+
+
+<!-- index.html -->
